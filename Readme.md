@@ -15,6 +15,9 @@ Integrated Development Environment of choice
 The Build tool of choice which allows us to build the project by downloading and building relevant 
 dependencies required to run the project.
 
+##GIT
+Used for Version Control
+
 ##Test Approach.
 
 The test approach used is PageObject pattern. The use of Page object patter allows 
@@ -51,7 +54,13 @@ In the reources folder, this folder includes feature files resources that are us
 1. Install IntelliJ
 2. Ensure you have Java installed on your PC   
 3. Make sure you have environments variable set for Java SDK
+   Ensure you have git installed, it's usually installed with IntelliJ, but just double check to be sure
 4. Open IntelliJ
+   Click on file, New Project from Version control
+   Version control - GIT
+   Input the repo url - https://github.com/Dinho0/SauceLabsDemoAutomation.git
+   Input directory of chois and clone
+   Give it a bit of time to download /clone
 5. Ensure to install Cucumber java plugins for IntelliJ
 6. Ensure to install Gherkin plugins for IntelliJ
 7. Run a Maven Install or Maven verify to download the dependencies.
